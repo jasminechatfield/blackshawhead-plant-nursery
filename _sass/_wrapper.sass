@@ -19,8 +19,12 @@ body
   h2
     font-size: 2rem
     border-bottom: 20px #F8E446 solid
-    width: max-content
-    padding-right: 1rem
+    width: 100%
+    text-align: center
+    +for-tablet-landscape-up
+      text-align: left
+      width: max-content
+      padding-right: 1rem
   h3
     font-size: 1.5rem
     margin-block-end: 0

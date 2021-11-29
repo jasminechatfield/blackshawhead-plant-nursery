@@ -1,6 +1,8 @@
 .contact
   display: grid
-  grid-template-columns: 1fr 1fr
+  grid-template-columns: 1fr
+  +for-tablet-landscape-up
+    grid-template-columns: 1fr 1fr
   &__form
     &__form
       margin: 1rem
