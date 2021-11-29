@@ -1,0 +1,20 @@
+---
+layout: frame
+---
+
+<h2>{{page.title}}</h2>
+
+{{content}}
+
+<aside class="news">
+   <h1>News</h1>
+   {% for post in site.posts limit:2 %}
+   <article class="news__block">
+      <h1><a href="{{post.url}}">{{post.title}} 🌺</a></h1>
+      <p>{{post.summary}}</p>
+      <div class="news__block__button">
+         <a href="{{post.url}}"><button>Read more</button></a>
+      </div>
+   </article>
+   {% endfor %}
+</aside>

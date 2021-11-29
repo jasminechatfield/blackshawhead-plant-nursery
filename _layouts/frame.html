@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+
+  <title>{{ page.title }} - {{ site.title }}</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/main.css">
+</head>
+
+<body>
+  <div class="page__wrapper">
+<header>
+  <div class="header__elements">
+<h1><a href="/">{{ site.title }}</a></h1><span>🌱</span></div>
+<nav>
+  <ul>
+  {% for item in site.data.nav.items %}
+  <li>
+  <a href="/{{item.url}}">{{item.name}}</a></li>
+  {% endfor %}
+</ul>
+</nav>
+</header>
+<main class="page__main__wrapper">
+{{ content }}
+</main>
+<footer>
+ <p> © 2021 Blackshawhead Plant Nursery </p>
+</footer>
+</div>
+</body>
+
+</html>
