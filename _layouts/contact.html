@@ -5,13 +5,20 @@ layout: frame
 <div class="contact">
    <div class="contact__info">{{content}}</div>
    <div class="contact__form">
-      <div class="contact__form__form">
+      <form class="contact__form__form">
          <h3>Contact Form</h3>
-         <p>Name: <input /></p>
-         <p>Email address: <input /></p>
-         <p>Message: <textarea></textarea></p>
-         <p>Subscribe for updates <input type="checkbox" /></p>
-         <button>Submit</button>
-      </div>
+         <label><span>Name: </span><input name="name" /></label>
+         <label><span>Email address: </span><input name="email" /></label>
+         <label
+            ><span>Message: </span><textarea name="message" rows="7"></textarea>
+         </label>
+         <label
+            ><span>Subscribe for updates</span>
+            <input type="checkbox" name="subscribe"
+         /></label>
+         <div class="contact__form__button">
+            <button type="submit">Submit</button>
+         </div>
+      </form>
    </div>
 </div>

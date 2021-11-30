@@ -1,9 +1,10 @@
 ---
-layout: frame
+layout: page-with-pic
 title: About
+image: image3.jpg
 ---
 
-Photo of Lou
+## About Blackshawhead Plant Nursery
 
 Blackshawhead Plant Nursery came into being partly as an antidote to our nearest
 large-scale garden centres which seem to sell very expensive plants imported from
