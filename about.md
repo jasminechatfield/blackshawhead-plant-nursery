@@ -4,7 +4,7 @@ title: About
 image: image3.jpg
 ---
 
-## About Blackshawhead Plant Nursery
+## About us
 
 Blackshawhead Plant Nursery came into being partly as an antidote to our nearest
 large-scale garden centres which seem to sell very expensive plants imported from
