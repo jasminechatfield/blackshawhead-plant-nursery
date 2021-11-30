@@ -5,6 +5,19 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
+  path: _data/nav.yml
+  label: Navigation Menu
+  match: "**/*"
+- type: jekyll-posts
+  label: Blog Posts
+  create: all
+  new_doc_ext: md
+- type: jekyll-pages
+  label: Pages
+  create: all
+- type: heading
+  label: Individual Pages
+- type: document
   path: christmas.md
   label: Christmas Trees
 - type: document
@@ -22,13 +35,6 @@ sections:
   path: contact.md
   label: Contact
   match: "**/*"
-- type: jekyll-posts
-  label: Blog Posts
-  create: all
-  new_doc_ext: md
-- type: jekyll-pages
-  label: Pages
-  create: all
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
