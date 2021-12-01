@@ -1,6 +1,17 @@
 .columns
-  display: flex
+  +for-tablet-landscape-up
+    display: flex
+    align-items: center
   .column
     &__picture
       margin: 1rem 2rem 1rem 1rem
-      max-width: 30%
+      width: 100%
+      box-sizing: border-box
+      +for-tablet-landscape-up
+        min-width: 30%
+      img
+        box-sizing: border-box
+        width: calc(100% - 2rem)
+        display: block
+        +for-tablet-landscape-up
+          width: 100%
