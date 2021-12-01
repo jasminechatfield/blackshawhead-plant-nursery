@@ -1,4 +1,30 @@
 ---
 label: Page with 3 images and latest news
 hide_body: false
-fields: []
+fields:
+- name: image1
+  type: file
+  config:
+    maxSize: 64
+  label: image1
+- name: image2
+  type: file
+  config:
+    maxSize: 64
+  label: image2
+- name: image3
+  type: file
+  config:
+    maxSize: 64
+  label: image3
+- name: title
+  type: text
+  config:
+    required: true
+  label: title
+- name: layout
+  type: text
+  config:
+    required: true
+  label: layout
+  default: page-with-news-and-images
