@@ -7,7 +7,6 @@ sections:
 - type: document
   path: _data/nav.yml
   label: Navigation Menu
-  match: "**/*"
 - type: jekyll-posts
   label: Blog Posts
   create: all
@@ -26,15 +25,12 @@ sections:
 - type: document
   path: seedlings.md
   label: Organic Vegetable Seedlings
-  match: "**/*"
 - type: document
   path: about.md
   label: About
-  match: "**/*"
 - type: document
   path: contact.md
   label: Contact
-  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
