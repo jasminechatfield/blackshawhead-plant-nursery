@@ -5,16 +5,45 @@ layout: frame
 <div class="contact">
    <div class="contact__info">{{content}}</div>
    <div class="contact__form">
-      <form class="contact__form__form">
+      <form
+         class="contact__form__form"
+         action="https://formsubmit.co/blackshawheadplantnursery@hotmail.com"
+         method="POST"
+      >
          <h3>Contact Form</h3>
-         <label><span>Name: </span><input name="name" /></label>
-         <label><span>Email address: </span><input name="email" /></label>
          <label
-            ><span>Message: </span><textarea name="message" rows="7"></textarea>
+            ><span>Name: </span
+            ><input name="name" type="text" placeholder="Your name" required
+         /></label>
+         <label
+            ><span>Email address: </span
+            ><input
+               name="email"
+               type="email"
+               placeholder="Email address"
+               required
+         /></label>
+         <label
+            ><span>Message: </span
+            ><textarea
+               placeholder="Your message"
+               name="message"
+               rows="7"
+               required
+            ></textarea>
          </label>
          <label
-            ><span>Subscribe for updates</span>
-            <input type="checkbox" name="subscribe"
+            ><span
+               ><span>Subscribe for updates</span>
+               <span class="contact__form__form__small"
+                  >Optional - will allow you to receive our latest news. We
+                  won't pass your details on to anyone else.</span
+               ></span
+            >
+            <input
+               type="checkbox"
+               name="subscribe"
+               class="contact__form__form__checkbox"
          /></label>
          <div class="contact__form__button">
             <button type="submit">Submit</button>

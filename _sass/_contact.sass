@@ -1,28 +1,56 @@
 .contact
-  display: grid
-  grid-template-columns: 1fr
+  
   +for-tablet-landscape-up
+    display: grid
+    grid-template-columns: 1fr
     grid-template-columns: 1fr 1fr
     margin-top: 2rem
   &__form
+    margin-top: 3rem
+    +for-tablet-landscape-up
+      margin-top: 0
     &__form
-      margin: 1rem
+      box-sizing: border-box
       padding: 1.5rem
       background-color: #D46AF4
       border-radius: 1.5rem
+      width: 100%
+      +for-tablet-landscape-up
+        margin: 1rem
+        width: initial
+      &__small
+        display: block
+        font-size: 0.8rem
+        +for-tablet-landscape-up
+          width: 50%
       h3
         margin-block-start: 0
+        margin-bottom: 1rem
+        +for-tablet-landscape-up
+          margin-bottom: 0
       label
-        display: flex
-        justify-content: space-between
         font-size: 1.2rem
         margin: 2rem 0
         font-weight: 600
+        +for-tablet-landscape-up
+          display: flex
+          justify-content: space-between
       input, textarea
-        width: 50%
+        font-family: Courier New, Courier, monospace
         padding: 0.5rem
         font-size: 1rem
         border: none
+        display: block
+        width: 100%
+        box-sizing: border-box
+        margin: 1rem 0
+        +for-tablet-landscape-up
+          margin: 0
+          width: 50%
+        &.contact__form__form__checkbox
+          margin: 0.5rem
+          width: initial
+      
     &__button
       text-align: right
       button
@@ -35,4 +63,6 @@
           cursor: pointer
           background-color: black
           color: white
-      
+  &__info
+    width: 100%
+    box-sizing: border-box
