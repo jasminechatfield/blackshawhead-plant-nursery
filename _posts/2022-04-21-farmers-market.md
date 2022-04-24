@@ -4,4 +4,4 @@ summary: At Hebden Bridge Farmers Market every Sunday
 layout: page-with-news
 
 ---
-At Hebden Bridge Farmers Market every Sunday
+Hebden Bridge Farmers Market every Sunday.
