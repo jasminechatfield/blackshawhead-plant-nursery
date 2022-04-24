@@ -13,3 +13,4 @@ fields:
   label: layout
 pages:
 - _posts/spring-sales.md
+- news-and-events.md
