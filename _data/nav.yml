@@ -1,14 +1,18 @@
+---
 items:
-   - name: "Christmas Trees"
-     url: "christmas"
-     emoji: "🌲"
-   - name: "Perennial Plants"
-     url: "perennial"
-     emoji: "🌼"
-   - name: "Organic Vegetable Seedlings"
-     url: "seedlings"
-     emoji: "🌱"
-   - name: "About"
-     url: "about"
-   - name: "Contact"
-     url: "contact"
+- name: News and Events
+  url: https://blackshawheadplantnursery.co.uk/news
+  emoji: ''
+- name: Christmas Trees
+  url: christmas
+  emoji: "\U0001F332"
+- name: Perennial Plants
+  url: perennial
+  emoji: "\U0001F33C"
+- name: Organic Vegetable Seedlings
+  url: seedlings
+  emoji: "\U0001F331"
+- name: About
+  url: about
+- name: Contact
+  url: contact
