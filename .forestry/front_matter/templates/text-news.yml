@@ -1,0 +1,15 @@
+---
+label: Text news
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: summary
+  label: summary
+- type: text
+  name: layout
+  label: layout
+pages:
+- _posts/spring-sales.md
