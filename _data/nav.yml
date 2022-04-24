@@ -1,8 +1,5 @@
 ---
 items:
-- name: News and Events
-  url: https://blackshawheadplantnursery.co.uk/news-and-events
-  emoji: ''
 - name: Christmas Trees
   url: christmas
   emoji: "\U0001F332"
