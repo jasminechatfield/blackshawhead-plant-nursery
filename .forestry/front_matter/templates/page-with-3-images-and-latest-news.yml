@@ -28,3 +28,5 @@ fields:
     required: true
   label: layout
   default: page-with-news-and-images
+pages:
+- _posts/2022-04-21-spring-sales.md
