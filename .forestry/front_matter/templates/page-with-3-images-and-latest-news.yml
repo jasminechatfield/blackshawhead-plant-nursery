@@ -29,5 +29,6 @@ fields:
   label: layout
   default: page-with-news-and-images
 pages:
+- _posts/2022-04-21-farmers-market.md
 - _posts/2022-04-21-spring-sales.md
 - _posts/2022-05-03-spring-sales-saturday-14th-may-and-saturday-28th-may.md
