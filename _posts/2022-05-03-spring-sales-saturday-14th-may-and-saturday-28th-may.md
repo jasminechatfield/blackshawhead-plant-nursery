@@ -6,7 +6,7 @@ image3: "/assets/images/whatsapp-image-2022-04-26-at-1-36-33-pm.jpeg"
 title: Spring Sales! Saturday 14th May.
 
 ---
-Grand Plant Sale! Saturday 14th May and Saturday 28th May, 10am - 5pm.
+Grand Plant Sale! Saturday 14th May, 10am - 5pm.
 
 Come and check out the full selection of plants growing at the nursery. Prices start at £2 for small specimens through to £10 for large plants in 5 litre pots.
 
