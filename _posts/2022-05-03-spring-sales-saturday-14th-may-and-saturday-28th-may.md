@@ -3,7 +3,7 @@ layout: page-with-news-and-images
 image1: "/assets/images/whatsapp-image-2022-04-26-at-1-38-13-pm.jpeg"
 image2: "/assets/images/whatsapp-image-2022-04-26-at-1-37-34-pm.jpeg"
 image3: "/assets/images/whatsapp-image-2022-04-26-at-1-36-33-pm.jpeg"
-title: Spring Sales! Saturday 14th May.
+title: Spring Sales! CANCELLED Due to Covid
 
 ---
 Grand Plant Sale! Saturday 14th May, 10am - 5pm.
